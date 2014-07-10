@@ -4680,6 +4680,7 @@ namespace MusicXml2
         [XmlEnum("32nd")] DemiSemiQuaver,
         [XmlEnum("16th")] SemiQuaver,
         [XmlEnum("eight")] Quaver,
+        [XmlEnum("eighth")] Quaver2 = Quaver,
         [XmlEnum("quarter")] Chrotchet,
         [XmlEnum("half")] Minim,
         [XmlEnum("whole")] SemiBreve,
